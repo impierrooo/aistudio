@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+
+  <meta charset="utf-8">
+  <title>ᴬᴵStudio</title>
+  <link rel="stylesheet" href="style.css">
+  <script type="text/javascript" src="script.js"></script>
+  <link rel="icon" class="logo_aistudio" type="image/png" sizes="16x16" href="logo_définitif_effect.png">
+  
+</head>
+
+<body class="commande_body">
+	
+	<nav>
+		<ul>
+			<li class="pasderoulant">
+				<a class="AiStudio2" href="index.html">ᴬᴵStudio</a>
+			</li>
+			<li class="pasderoulant2">
+				<a class="AiStudio5" href="commande.html">Commandez votre montage</a>
+			</li>
+			<li class="deroulant"><a class="AiStudio4" href="#">Langue</a>
+				<ul class="sous">
+					<li><a class="AiStudio1" href="#">&nbsp;&nbsp;&nbsp;<img class="drapeau" src="france.png">&nbsp;&nbsp;&nbsp;Français</a></li>
+					<li><a class="AiStudio1" href="#">&nbsp;&nbsp;&nbsp;<img class="drapeau" src="angleterre.png">&nbsp;&nbsp;&nbsp;English</a></li>
+					<li><a class="AiStudio1" href="#">&nbsp;&nbsp;&nbsp;<img class="drapeau" src="espagne.png">&nbsp;&nbsp;&nbsp;Español</a></li>
+				</ul>
+			</li>
+		</ul>
+	</nav>
+	
+	<div class="formulaire_commande">
+		<form id="formulaire_commande_form1">
+			<p class="formulaire_commande_titre">Définition de vos besoins</p>
+			
+			<input id="formulaire_commande_boutonA1" type="text" maxlength="40" placeholder="Veuillez saisir votre email :" required>
+			<input id="formulaire_commande_boutonA2" type="text" maxlength="40" placeholder="Veuillez saisir votre email :" required>
+			<input id="formulaire_commande_boutonA3" type="text" maxlength="40" placeholder="Veuillez saisir votre email :" required>
+			
+			<input type="button" id="boutonA1" class="bouton_commande" onclick="Form2()" value="Page suivante &#129146;">
+		</form>
+		
+		<form id="formulaire_commande_form2">
+			<p class="formulaire_commande_titre">Types d’effets vidéo</p>
+			
+			<input id="formulaire_commande_boutonB1" type="text" maxlength="40" placeholder="Veuillez saisir votre email page 2 :" required>
+			<input id="formulaire_commande_boutonB2" type="text" maxlength="40" placeholder="Veuillez saisir votre email page 2 :" required>
+			<input id="formulaire_commande_boutonB3" type="text" maxlength="40" placeholder="Veuillez saisir votre email page 2 :" required>
+			
+			<input type="button" id="boutonB1" class="bouton_commande1" onclick="Form1()" value="&#129144; Page précédente">
+			<input type="button" id="boutonB2" class="bouton_commande2" onclick="Form3()" value="Page suivante &#129146;">
+		</form>
+		
+		<form id="formulaire_commande_form3">
+			<p class="formulaire_commande_titre">Durée de la vidéo</p>
+			
+			<input id="formulaire_commande_boutonC1" type="text" maxlength="40" placeholder="page 3 :" required>
+			<input id="formulaire_commande_boutonC2" type="text" maxlength="40" placeholder="page 3 :" required>
+			<input id="formulaire_commande_boutonC3" type="text" maxlength="40" placeholder="page 3 :" required>
+			
+			<input type="button" id="boutonC1" class="bouton_commande1" onclick="Form2()" value="&#129144; Page précédente">
+			<input type="button" id="boutonC2" class="bouton_commande2" onclick="Form4()" value="Page suivante &#129146;">
+		</form>
+		
+		<form id="formulaire_commande_form4">
+			<p class="formulaire_commande_titre">Quantité de rush</p>
+			
+			<input id="formulaire_commande_boutonD1" type="text" maxlength="40" placeholder="page 3 :" required>
+			<input id="formulaire_commande_boutonD2" type="text" maxlength="40" placeholder="page 3 :" required>
+			<input id="formulaire_commande_boutonD3" type="text" maxlength="40" placeholder="page 3 :" required>
+			
+			<input type="button" id="boutonD1" class="bouton_commande1" onclick="Form3()" value="&#129144; Page précédente">
+			<input type="button" id="boutonD2" class="bouton_commande2" onclick="Form5()" value="Page suivante &#129146;">
+		</form>
+		
+		<form id="formulaire_commande_form5">
+			<p class="formulaire_commande_titre">Nombre de caméra</p>
+			
+			<input id="formulaire_commande_boutonE1" type="text" maxlength="40" placeholder="page 3 :" required>
+			<input id="formulaire_commande_boutonE2" type="text" maxlength="40" placeholder="page 3 :" required>
+			<input id="formulaire_commande_boutonE3" type="text" maxlength="40" placeholder="page 3 :" required>
+			
+			<input type="button" id="boutonE1" class="bouton_commande1" onclick="Form4()" value="&#129144; Page précédente">
+			<input type="button" id="boutonE2" class="bouton_commande2" onclick="Form6()" value="Page suivante &#129146;">
+		</form>
+		
+		<form id="formulaire_commande_form6">
+			<p class="formulaire_commande_titre">Définition de l’exportation</p>
+			
+			<input id="formulaire_commande_boutonF1" type="text" maxlength="40" placeholder="page 3 :" required>
+			<input id="formulaire_commande_boutonF2" type="text" maxlength="40" placeholder="page 3 :" required>
+			<input id="formulaire_commande_boutonF3" type="text" maxlength="40" placeholder="page 3 :" required>
+			
+			<input type="button" id="boutonF1" class="bouton_commande1" onclick="Form5()" value="&#129144; Page précédente">
+			<input type="button" id="boutonF2" class="bouton_commande2" onclick="Form7()" value="Page suivante &#129146;">
+		</form>
+		
+		<form id="formulaire_commande_form7">
+			<p class="formulaire_commande_titre">Délai de réalisation</p>
+			
+			<input id="formulaire_commande_boutonG1" type="text" maxlength="40" placeholder="page 3 :" required>
+			<input id="formulaire_commande_boutonG2" type="text" maxlength="40" placeholder="page 3 :" required>
+			<input id="formulaire_commande_boutonG3" type="text" maxlength="40" placeholder="page 3 :" required>
+			
+			<input type="button" id="boutonG1" class="bouton_commande1" onclick="Form6()" value="&#129144; Page précédente">
+			<input type="button" id="boutonG2" class="bouton_commande2" onclick="Form8()" value="Page suivante &#129146;">
+		</form>
+		
+		<form id="formulaire_commande_form8">
+			<p class="formulaire_commande_titre">Expérience du monteur</p>
+			
+			<input id="formulaire_commande_boutonH1" type="text" maxlength="40" placeholder="page 3 :" required>
+			<input id="formulaire_commande_boutonH2" type="text" maxlength="40" placeholder="page 3 :" required>
+			<input id="formulaire_commande_boutonH3" type="text" maxlength="40" placeholder="page 3 :" required>
+			
+			<input type="button" id="boutonH1" class="bouton_commande1" onclick="Form7()" value="&#129144; Page précédente">
+			<input type="button" id="boutonH2" class="bouton_commande2" onclick="Form9()" value="Page suivante &#129146;">
+		</form>
+		
+		<form id="formulaire_commande_form9">
+			<p class="formulaire_commande_titre">Vos informations personnelles</p>
+			
+			<input id="formulaire_commande_boutonI1" type="text" maxlength="40" placeholder="page 3 :" required>
+			<input id="formulaire_commande_boutonI2" type="text" maxlength="40" placeholder="page 3 :" required>
+			<input id="formulaire_commande_boutonI3" type="text" maxlength="40" placeholder="page 3 :" required>
+			
+			<input type="button" id="boutonI1" class="bouton_commande1" onclick="Form8()" value="&#129144; Page précédente">
+			<input type="button" id="boutonI2" class="bouton_commande2" onclick="Form10()" value="Page suivante &#129146;">
+		</form>
+		
+		<form id="formulaire_commande_form10">
+			<p class="formulaire_commande_titre">Règlement</p>
+			
+			<input id="formulaire_commande_boutonJ1" type="text" maxlength="40" placeholder="page 3 :" required>
+			<input id="formulaire_commande_boutonJ2" type="text" maxlength="40" placeholder="page 3 :" required>
+			<input id="formulaire_commande_boutonJ3" type="text" maxlength="40" placeholder="page 3 :" required>
+			
+			<input type="button" id="boutonJ1" class="bouton_commande" onclick="Form9()" value="&#129144; Page précédente">
+		</form>
+	</div>
+	
+	<div class="barre_du_bas2" >
+		<p class="texte_bas">Site officiel de <a href="index.html" class="AiStudio">ᴬᴵStudio</a> | Réalisé par <a href="https://twitter.com/impierrooo" target="_blank" class="Pierrooo">Pierrooo</a></p>
+	</div>
+
+</body>
+
+</html>
